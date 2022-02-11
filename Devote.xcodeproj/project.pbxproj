@@ -17,6 +17,7 @@
 		627D32BB27B61303001B411C /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 627D32B827B61303001B411C /* sound-tap.mp3 */; };
 		627D32BC27B61303001B411C /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 627D32B927B61303001B411C /* sound-rise.mp3 */; };
 		627D32C927B61C2C001B411C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D32C827B61C2C001B411C /* Constant.swift */; };
+		627D32CB27B62124001B411C /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D32CA27B62124001B411C /* HideKeyboardExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		627D32B927B61303001B411C /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
 		627D32C327B613F7001B411C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		627D32C827B61C2C001B411C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		627D32CA27B62124001B411C /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		627D32BF27B61337001B411C /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				627D32CA27B62124001B411C /* HideKeyboardExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			files = (
 				627D32AE27B612A9001B411C /* Persistence.swift in Sources */,
 				627D32A727B612A9001B411C /* ContentView.swift in Sources */,
+				627D32CB27B62124001B411C /* HideKeyboardExtension.swift in Sources */,
 				627D32C927B61C2C001B411C /* Constant.swift in Sources */,
 				627D32B127B612A9001B411C /* Devote.xcdatamodeld in Sources */,
 				627D32A527B612A9001B411C /* DevoteApp.swift in Sources */,
